@@ -2,17 +2,17 @@
 ║                                                               [1mLecture 0[0m                                                                ║
 ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-[1;33m • [0m]8;id=926272;#welcome\[94mWelcome[0m]8;;\                                                                                                                                
-[1;33m • [0m]8;id=577928;#what-is-computer-science\[94mWhat is computer science?[0m]8;;\                                                                                                              
-[1;33m • [0m]8;id=697833;#representing-numbers\[94mRepresenting numbers[0m]8;;\                                                                                                                   
-[1;33m • [0m]8;id=368202;#text\[94mText[0m]8;;\                                                                                                                                   
-[1;33m • [0m]8;id=397319;#images-video-sounds\[94mImages, video, sounds[0m]8;;\                                                                                                                  
-[1;33m • [0m]8;id=594801;#algorithms\[94mAlgorithms[0m]8;;\                                                                                                                             
-[1;33m • [0m]8;id=867059;#pseudocode\[94mPseudocode[0m]8;;\                                                                                                                             
-[1;33m • [0m]8;id=231554;#scratch-basics\[94mScratch basics[0m]8;;\                                                                                                                         
-[1;33m • [0m]8;id=228097;#abstraction\[94mAbstraction[0m]8;;\                                                                                                                            
-[1;33m • [0m]8;id=326466;#conditionals-and-more\[94mConditionals and more[0m]8;;\                                                                                                                  
-[1;33m • [0m]8;id=416189;#demos\[94mDemos[0m]8;;\                                                                                                                                  
+[1;33m • [0m]8;id=638363;#welcome\[94mWelcome[0m]8;;\                                                                                                                                
+[1;33m • [0m]8;id=299509;#what-is-computer-science\[94mWhat is computer science?[0m]8;;\                                                                                                              
+[1;33m • [0m]8;id=210564;#representing-numbers\[94mRepresenting numbers[0m]8;;\                                                                                                                   
+[1;33m • [0m]8;id=456801;#text\[94mText[0m]8;;\                                                                                                                                   
+[1;33m • [0m]8;id=677390;#images-video-sounds\[94mImages, video, sounds[0m]8;;\                                                                                                                  
+[1;33m • [0m]8;id=90989;#algorithms\[94mAlgorithms[0m]8;;\                                                                                                                             
+[1;33m • [0m]8;id=34572;#pseudocode\[94mPseudocode[0m]8;;\                                                                                                                             
+[1;33m • [0m]8;id=838337;#scratch-basics\[94mScratch basics[0m]8;;\                                                                                                                         
+[1;33m • [0m]8;id=907429;#abstraction\[94mAbstraction[0m]8;;\                                                                                                                            
+[1;33m • [0m]8;id=818921;#conditionals-and-more\[94mConditionals and more[0m]8;;\                                                                                                                  
+[1;33m • [0m]8;id=112978;#demos\[94mDemos[0m]8;;\                                                                                                                                  
 
 
                                                                  [1;4mWelcome[0m                                                                  
@@ -24,7 +24,7 @@
 [1;33m   [0mcompleting some task.                                                                                                                  
 [1;33m • [0mIn fact, David lost two points on his first assignment for not following all of the instructions correctly:                            
 
-🌆 ]8;id=425026;assignment.png\assignment showing code with -2 points]8;;\  + And while this code (written in a programming language as opposed to a language like English)
+🌆 ]8;id=906023;assignment.png\assignment showing code with -2 points]8;;\  + And while this code (written in a programming language as opposed to a language like English)
 weeks or months before we can understand main programming concepts and even teach ourselves new languages.                                
 
 [1;33m • [0mImportantly,                                                                                                                           
@@ -41,7 +41,7 @@ weeks or months before we can understand main programming concepts and even teac
 [1;33m • [0mWe can think of [1mproblem solving[0m as the process of taking some input (a problem we want to solve) and generate some output (the solution
 [1;33m   [0mto our problem).                                                                                                                       
 
-🌆 ]8;id=221219;input_output.png\word ]8;;\]8;id=221219;input_output.png\"]8;;\]8;id=221219;input_output.png\input]8;;\]8;id=221219;input_output.png\"]8;;\]8;id=221219;input_output.png\, arrow into box, arrow out of box, word ]8;;\]8;id=221219;input_output.png\"]8;;\]8;id=221219;input_output.png\output]8;;\]8;id=221219;input_output.png\"]8;;\                                                                          
+🌆 ]8;id=562965;input_output.png\word ]8;;\]8;id=562965;input_output.png\"]8;;\]8;id=562965;input_output.png\input]8;;\]8;id=562965;input_output.png\"]8;;\]8;id=562965;input_output.png\, arrow into box, arrow out of box, word ]8;;\]8;id=562965;input_output.png\"]8;;\]8;id=562965;input_output.png\output]8;;\]8;id=562965;input_output.png\"]8;;\                                                                          
 
 [1;33m • [0mTo begin doing that, we’ll need a way to represent inputs and outputs, so we can store and work with information in a standardized way.
 
@@ -181,12 +181,12 @@ weeks or months before we can understand main programming concepts and even teac
 
                                                                    [1;4mText[0m                                                                   
 
-🌆 ]8;id=537116;medical_mask.png\emoji with face with medical mask]8;;\ 
+🌆 ]8;id=219804;medical_mask.png\emoji with face with medical mask]8;;\ 
 [1;33m • [0mTo represent letters, all we need to do is decide how numbers map to letters. Some humans, many years ago, collectively decided on a   
 [1;33m   [0mstandard mapping of numbers to letters. The letter “A”, for example, is the number 65, and “B” is 66, and so on. In binary, the letter 
 [1;33m   [0m“A” is the pattern [97;40m01000001[0m . By using context, like the file format, different programs can interpret and display the same bits as    
 [1;33m   [0mnumbers or text.                                                                                                                       
-[1;33m • [0mThe standard mapping, ]8;id=638937;https://en.wikipedia.org/wiki/ASCII\[1;94mASCII[0m]8;;\ , also includes lowercase letters and punctuation.                                                         
+[1;33m • [0mThe standard mapping, ]8;id=605029;https://en.wikipedia.org/wiki/ASCII\[1;94mASCII[0m]8;;\ , also includes lowercase letters and punctuation.                                                         
 [1;33m • [0mWhen we receive a text message, we might be getting patterns of bits that have the decimal values [97;40m72[0m , [97;40m73[0m , and [97;40m33[0m . Those bits would  
 [1;33m   [0mmap to the letters [97;40mHI![0m . And the sequences of bits we receive would look like [97;40m01001000[0m , [97;40m01001001[0m , and [97;40m00100001[0m , with 8 bits for each
 [1;33m   [0mcharacter.                                                                                                                             
@@ -194,9 +194,9 @@ weeks or months before we can understand main programming concepts and even teac
 [1;33m   [0mbe 255.)                                                                                                                               
 [1;33m • [0mAnd we might already be familiar with using bytes as a unit of measurement for data, as in megabytes or gigabytes, for millions or     
 [1;33m   [0mbillions of bytes.                                                                                                                     
-[1;33m • [0mOther characters, such as letters with accent marks and symbols in other languages, are part of a standard called ]8;id=400169;https://en.wikipedia.org/wiki/Unicode\[1;94mUnicode[0m]8;;\ , which uses 
+[1;33m • [0mOther characters, such as letters with accent marks and symbols in other languages, are part of a standard called ]8;id=568419;https://en.wikipedia.org/wiki/Unicode\[1;94mUnicode[0m]8;;\ , which uses 
 [1;33m   [0mmore bits than ASCII to accommodate all these characters.                                                                              
-[1;33m • [0mWhen we receive an ]8;id=921939;https://en.wikipedia.org/wiki/Emoji\[94memoji[0m]8;;\ , our computer is actually just receiving a number in binary that it then maps to the image of the emoji based
+[1;33m • [0mWhen we receive an ]8;id=863292;https://en.wikipedia.org/wiki/Emoji\[94memoji[0m]8;;\ , our computer is actually just receiving a number in binary that it then maps to the image of the emoji based
 [1;33m   [0mon the Unicode standard.                                                                                                               
 [1;33m   [0m[1;33m • [0mFor example, the “face with medical mask” emoji is just the four bytes [97;40m11110000 10011111 10011000 10110111[0m :                        
 [1;33m   [0m                                                                                                                                       
@@ -206,7 +206,7 @@ weeks or months before we can understand main programming concepts and even teac
 
                                                           [1;4mImages, video, sounds[0m                                                           
 
-🌆 ]8;id=108438;72_73_33.png\dark yellow]8;;\ 
+🌆 ]8;id=210175;72_73_33.png\dark yellow]8;;\ 
 [1;33m • [0mWith bits, we can map numbers to colors as well. There are many different systems to represent colors, but a common one is [1mRGB[0m , which 
 [1;33m   [0mrepresents colors by indicating the amount of red, green, and blue within each color.                                                  
 [1;33m • [0mFor example, our pattern of bits earlier, [97;40m72[0m , [97;40m73[0m , and [97;40m33[0m might indicate the amount of red, green, and blue in a color. (And our      
@@ -218,17 +218,17 @@ weeks or months before we can understand main programming concepts and even teac
 [1;33m   [0mSo by using three bytes to represent the color for each pixel, we can create images. We can see pixels in an emoji if we zoom in, for  
 [1;33m   [0mexample:                                                                                                                               
 
-🌆 ]8;id=380641;emoji_zoomed.png\zoomed-in emoji of face with medical mask with squares of pixels distinguishable]8;;\                                                       
+🌆 ]8;id=718994;emoji_zoomed.png\zoomed-in emoji of face with medical mask with squares of pixels distinguishable]8;;\                                                       
 
-[1;33m • [0mVideos are sequences of many images, changing multiple times a second to give us the appearance of motion, as a ]8;id=290945;https://www.youtube.com/watch?v=sz78_07Xg-U\[94mflipbook[0m]8;;\ might.        
-[1;33m • [0mMusic can be represented with bits, too. ]8;id=468070;https://en.wikipedia.org/wiki/MIDI\[94mMIDI[0m]8;;\ is one such format which represents music with numbers for each of the notes and their   
+[1;33m • [0mVideos are sequences of many images, changing multiple times a second to give us the appearance of motion, as a ]8;id=989896;https://www.youtube.com/watch?v=sz78_07Xg-U\[94mflipbook[0m]8;;\ might.        
+[1;33m • [0mMusic can be represented with bits, too. ]8;id=244872;https://en.wikipedia.org/wiki/MIDI\[94mMIDI[0m]8;;\ is one such format which represents music with numbers for each of the notes and their   
 [1;33m   [0mduration and volume.                                                                                                                   
 [1;33m • [0mSo all of these ideas are just zeroes and ones, interpreted and used by software we’ve written to interpret them in the ways that we   
 [1;33m   [0mwant.                                                                                                                                  
 [1;33m   [0m[1;33m • [0mThere are other formats, some of which use compression (mathematical ways to represent some data with fewer bits), or some which    
 [1;33m   [0m[1;33m   [0mmight be containers that store multiple types of data together.                                                                     
 [1;33m   [0m[1;33m • [0mAnd since there are many companies and groups developing software, we have lots of different file formats in existence, each with   
-[1;33m   [0m[1;33m   [0mtheir own ways of representing data. But there are also organizations that work on some consensus, like ]8;id=790323;https://en.wikipedia.org/wiki/Unicode_Consortium\[94mthe one[0m]8;;\ responsible for     
+[1;33m   [0m[1;33m   [0mtheir own ways of representing data. But there are also organizations that work on some consensus, like ]8;id=984889;https://en.wikipedia.org/wiki/Unicode_Consortium\[94mthe one[0m]8;;\ responsible for     
 [1;33m   [0m[1;33m   [0mmaintaining the Unicode standard.                                                                                                   
 
 
@@ -237,7 +237,7 @@ weeks or months before we can understand main programming concepts and even teac
 [1;33m • [0mNow that we can represent inputs and outputs, we can work on problem solving. The black box that transforms inputs to outputs contains 
 [1;33m   [0m[1malgorithms[0m , step-by-step instructions for solving problems:                                                                           
 
-🌆 ]8;id=993425;algorithms.png\box with word ]8;;\]8;id=993425;algorithms.png\"]8;;\]8;id=993425;algorithms.png\algorithms]8;;\]8;id=993425;algorithms.png\"]8;;\                                                                                                             
+🌆 ]8;id=526515;algorithms.png\box with word ]8;;\]8;id=526515;algorithms.png\"]8;;\]8;id=526515;algorithms.png\algorithms]8;;\]8;id=526515;algorithms.png\"]8;;\                                                                                                             
 
 [1;33m • [0mWe might have an application on our phones that store our contacts, with their names and phone numbers sorted alphabetically. The      
 [1;33m   [0mold-school equivalent might be a phone book, a printed copy of names and phone numbers.                                                
@@ -250,9 +250,9 @@ weeks or months before we can understand main programming concepts and even teac
 [1;33m   [0mdividing the problem in half each time.                                                                                                
 [1;33m • [0mWe can visualize the efficiency of each of those algorithms with a chart:                                                              
 
-🌆 ]8;id=174630;time_to_solve.png\chart with: ]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\size of problem]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\ as x-axis; ]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\time to solve]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\ as y-axis; red, steep straight line from origin to top of graph labeled ]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\n]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\; ]8;;\
-]8;id=174630;time_to_solve.png\yellow, less steep straight line from origin to top of graph labeled ]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\n/2]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\; green, curved line that gets less and less steep from origin ]8;;\
-]8;id=174630;time_to_solve.png\to right of graph labeled ]8;;\]8;id=174630;time_to_solve.png\"]8;;\]8;id=174630;time_to_solve.png\log]8;;\]8;id=174630;time_to_solve.png\_]8;;\]8;id=174630;time_to_solve.png\2  n]8;;\]8;id=174630;time_to_solve.png\"]8;;\  + Our first algorithm, searching one page at a time, can be represented by the red line: our time to
+🌆 ]8;id=969970;time_to_solve.png\chart with: ]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\size of problem]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\ as x-axis; ]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\time to solve]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\ as y-axis; red, steep straight line from origin to top of graph labeled ]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\n]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\; ]8;;\
+]8;id=969970;time_to_solve.png\yellow, less steep straight line from origin to top of graph labeled ]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\n/2]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\; green, curved line that gets less and less steep from origin ]8;;\
+]8;id=969970;time_to_solve.png\to right of graph labeled ]8;;\]8;id=969970;time_to_solve.png\"]8;;\]8;id=969970;time_to_solve.png\log]8;;\]8;id=969970;time_to_solve.png\_]8;;\]8;id=969970;time_to_solve.png\2  n]8;;\]8;id=969970;time_to_solve.png\"]8;;\  + Our first algorithm, searching one page at a time, can be represented by the red line: our time to
 of the problem increases. [3mn[0m is a number representing the size of the problem, so with [3mn[0m pages in our phone books, we have to take up to [3mn[0m 
 steps to find a name. + The second algorithm, searching two pages at a time, can be represented by the yellow line: our slope is less     
 steep, but still linear. Now, we only need (roughly) [3mn[0m / 2 steps, since we flip two pages at a time. + Our final algorithm, dividing the  
@@ -387,17 +387,17 @@ name.
 
                                                               [1;4mScratch basics[0m                                                              
 
-[1;33m • [0mWe’ll start programming with a graphical programming language called ]8;id=979080;https://scratch.mit.edu/\[94mScratch[0m]8;;\ , where we’ll drag and drop blocks that contain           
+[1;33m • [0mWe’ll start programming with a graphical programming language called ]8;id=628325;https://scratch.mit.edu/\[94mScratch[0m]8;;\ , where we’ll drag and drop blocks that contain           
 [1;33m   [0minstructions.                                                                                                                          
 [1;33m • [0mThe programming environment for Scratch is a little more friendly:                                                                     
 
-🌆 ]8;id=271744;scratch.png\screenshot of Scratch]8;;\]8;id=271744;scratch.png\']8;;\]8;id=271744;scratch.png\s interface]8;;\  + On the left, we have puzzle pieces that represent functions or variables, or other concepts, that 
+🌆 ]8;id=942634;scratch.png\screenshot of Scratch]8;;\]8;id=942634;scratch.png\']8;;\]8;id=942634;scratch.png\s interface]8;;\  + On the left, we have puzzle pieces that represent functions or variables, or other concepts, that 
 area in the center. + On the bottom right, we can add more characters, or sprites, for our program to use. + On the top right, we have a  
 stage, or the world that will be shown by our program.                                                                                    
 
 [1;33m • [0mThe world in Scratch has a coordinate-based system for positioning things on the screen:                                               
 
-🌆 ]8;id=880488;coordinates.png\cat in center of screen with x and y axes labeled with negative and positive coordinates]8;;\  + The center of the screen is a coordinate of
+🌆 ]8;id=372963;coordinates.png\cat in center of screen with x and y axes labeled with negative and positive coordinates]8;;\  + The center of the screen is a coordinate of
 the screen would still be 0 for x, and -180 for y. The left of the screen would be -240 for x and 0 for y, and the right of the screen    
 would be 240 for x and 0 for y.                                                                                                           
 
@@ -604,13 +604,13 @@ would be 240 for x and 0 for y.
 
                                                                   [1;4mDemos[0m                                                                   
 
-[1;33m • [0mWith a volunteer from the audience, we demonstrate a ]8;id=262382;https://scratch.mit.edu/projects/565362715\[94mwhack-a-mole[0m]8;;\ game.                                                                
-[1;33m • [0mWe also take a look at ]8;id=243910;https://scratch.mit.edu/projects/277537196\[94mOscartime[0m]8;;\ , another game where the player drags trash into a trashcan for points.                               
-[1;33m • [0mWe’ll take a look at how we might have built this program. First, we can add an image of the ]8;id=878360;https://scratch.mit.edu/projects/565133620\[94mlamp post[0m]8;;\ as a backdrop:                  
+[1;33m • [0mWith a volunteer from the audience, we demonstrate a ]8;id=904619;https://scratch.mit.edu/projects/565362715\[94mwhack-a-mole[0m]8;;\ game.                                                                
+[1;33m • [0mWe also take a look at ]8;id=733821;https://scratch.mit.edu/projects/277537196\[94mOscartime[0m]8;;\ , another game where the player drags trash into a trashcan for points.                               
+[1;33m • [0mWe’ll take a look at how we might have built this program. First, we can add an image of the ]8;id=542097;https://scratch.mit.edu/projects/565133620\[94mlamp post[0m]8;;\ as a backdrop:                  
 
-🌆 ]8;id=8811;lamppost.png\image of lamppost in Scratch]8;;\]8;id=8811;lamppost.png\']8;;\]8;id=8811;lamppost.png\s editor interface]8;;\                                                                                        
+🌆 ]8;id=580762;lamppost.png\image of lamppost in Scratch]8;;\]8;id=580762;lamppost.png\']8;;\]8;id=580762;lamppost.png\s editor interface]8;;\                                                                                        
 
-[1;33m • [0mThen, we’ll add images of ]8;id=170946;https://scratch.mit.edu/projects/565100517\[94mtrash cans[0m]8;;\ , with one open and one closed:                                                                   
+[1;33m • [0mThen, we’ll add images of ]8;id=532907;https://scratch.mit.edu/projects/565100517\[94mtrash cans[0m]8;;\ , with one open and one closed:                                                                   
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
 [2m│[0m [48;2;39;40;34mwhen green flag clicked                                                                                                               [0m [2m│[0m
@@ -626,7 +626,7 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34m+ We name these costumes “oscar1” and “oscar2”, and whenever the mouse is touching it, the trash can will appear to be open.          [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mThen, we’ll work on a piece of ]8;id=201318;https://scratch.mit.edu/projects/565117390\[94mfalling trash[0m]8;;\ :                                                                                         
+[1;33m • [0mThen, we’ll work on a piece of ]8;id=685363;https://scratch.mit.edu/projects/565117390\[94mfalling trash[0m]8;;\ :                                                                                         
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
 [2m│[0m [48;2;39;40;34mwhen green flag clicked                                                                                                               [0m [2m│[0m
@@ -641,7 +641,7 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34m(another sprite that’s a black line) is more than 0.                                                                                  [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mWe’ll allow ]8;id=749033;https://scratch.mit.edu/projects/565119737\[94mdragging trash[0m]8;;\ with these blocks:                                                                                          
+[1;33m • [0mWe’ll allow ]8;id=731950;https://scratch.mit.edu/projects/565119737\[94mdragging trash[0m]8;;\ with these blocks:                                                                                          
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
 [2m│[0m [48;2;39;40;34mwhen green flag clicked                                                                                                               [0m [2m│[0m
@@ -654,7 +654,7 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34m+ If the mouse is down and touching the trash, then our trash will move to the mouse’s location.                                      [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mFinally, we’ll use ]8;id=124992;https://scratch.mit.edu/projects/565472267\[94mvariables[0m]8;;\ to keep track of our score:                                                                               
+[1;33m • [0mFinally, we’ll use ]8;id=699803;https://scratch.mit.edu/projects/565472267\[94mvariables[0m]8;;\ to keep track of our score:                                                                               
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
 [2m│[0m [48;2;39;40;34mwhen green flag clicked                                                                                                               [0m [2m│[0m
@@ -669,7 +669,7 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34mback to the top at a random horizontal position so we can continue the game.                                                          [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mNow, we’ll take a look at ]8;id=486788;https://scratch.mit.edu/projects/565121265\[94mmoving[0m]8;;\ . Here, we have a few different scripts, one checking for whether keys are being pressed, and one for 
+[1;33m • [0mNow, we’ll take a look at ]8;id=828401;https://scratch.mit.edu/projects/565121265\[94mmoving[0m]8;;\ . Here, we have a few different scripts, one checking for whether keys are being pressed, and one for 
 [1;33m   [0mwhether our sprite is touching a wall:                                                                                                 
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
@@ -710,7 +710,7 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34m+ The “feel for walls” script will check whether the sprite is now touching a wall, and move it back if it is.                        [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mWe can make another sprite ]8;id=55681;https://scratch.mit.edu/projects/565127193\[94mbounce[0m]8;;\ back and forth, like it’s getting in our way:                                                        
+[1;33m • [0mWe can make another sprite ]8;id=590175;https://scratch.mit.edu/projects/565127193\[94mbounce[0m]8;;\ back and forth, like it’s getting in our way:                                                        
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
 [2m│[0m [48;2;39;40;34mwhen green flag clicked                                                                                                               [0m [2m│[0m
@@ -729,7 +729,7 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34m+ Then, we’ll constantly check if it’s touching a wall and turn 180 degrees (reversing direction) if so, and move 1 step every time.  [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mWe can have one sprite ]8;id=368985;https://scratch.mit.edu/projects/565479840\[94mfollow[0m]8;;\ another:                                                                                                 
+[1;33m • [0mWe can have one sprite ]8;id=393705;https://scratch.mit.edu/projects/565479840\[94mfollow[0m]8;;\ another:                                                                                                 
 
 [2m┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐[0m
 [2m│[0m [48;2;39;40;34mwhen green flag clicked                                                                                                               [0m [2m│[0m
@@ -744,5 +744,5 @@ would be 240 for x and 0 for y.
 [2m│[0m [48;2;39;40;34m+ We can change the script to move two steps at a time, so it will always catch up.                                                   [0m [2m│[0m
 [2m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[0m
 
-[1;33m • [0mWe’ll finish by trying out the full ]8;id=207478;https://scratch.mit.edu/projects/565742837\[94mIvy’s Hardest Game[0m]8;;\ with a volunteer.                                                               
+[1;33m • [0mWe’ll finish by trying out the full ]8;id=322254;https://scratch.mit.edu/projects/565742837\[94mIvy’s Hardest Game[0m]8;;\ with a volunteer.                                                               
 [1;33m • [0mSee you next time!                                                                                                                     
