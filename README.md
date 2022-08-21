@@ -1,6 +1,8 @@
 # Notes50
 
-A CS50 Notes And PSets Reader.
+#### A CS50 Notes And PSets Reader.
+
+#### Video Demo: https://www.youtube.com/watch?v=wtuPx1vHtjo
 
 ### Arguments
     -x : CS50X
