@@ -1,4 +1,4 @@
-from notes50 import parse_args, note, pset, projects
+from project import parse_args, note, pset
 
 tNotes = {
     "a": 0,
