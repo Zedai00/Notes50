@@ -1,14 +1,14 @@
-import sys
 import argparse
+import sys
 from urllib.error import HTTPError
-from urllib.request import urlopen, Request
-from bs4 import BeautifulSoup
-from markdownify import markdownify as md
-from rich.markdown import Markdown
-from rich.console import Console
-from appdirs import user_cache_dir
-from joblib import Memory
+from urllib.request import Request, urlopen
 
+from appdirs import user_cache_dir
+from bs4 import BeautifulSoup
+from joblib import Memory
+from markdownify import markdownify as md
+from rich.console import Console
+from rich.markdown import Markdown
 
 appname = "Notes50"
 appauthor = "Zed"
@@ -41,7 +41,7 @@ projects = {
 
 
 def main():
-    args = parse_args()
+    args = parse_args(sys.argv[1:])
     for i in vars(args):
         if f"{getattr(args, i)}".isnumeric():
             print(note(args, i))
@@ -74,7 +74,7 @@ def pset(args, i):
 
 @memory.cache
 def get(url):
-    con = Console()
+    con = Console(record=True)
     html = urlopen(Request(url)).read().decode()
     main = BeautifulSoup(html, "lxml")
     main = main.main
@@ -85,27 +85,27 @@ def get(url):
     return capture.get()
 
 
-def parse_args():
+def parse_args(args):
     parser = argparse.ArgumentParser(
         description="CS50 Notes And Problem Sets Reader In Terminal",
         epilog=help(),
         formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument("-x", metavar="Week, Week/PSet",
-                        help="CS50x Week Notes or Week/PSet Name")
-    parser.add_argument("-p", metavar="Week, Week/PSet",
-                        help="CS50 Python Week Notes or Week/PSet Name")
-    parser.add_argument("-w", metavar="Week, Week/PSet",
-                        help="CS50 Web Week Notes or Week/PSet Name")
     parser.add_argument("-a", metavar="Week, Week/PSet",
                         help="CS50 AI Week Notes or Week/PSet Name (No Final Project)")
     parser.add_argument("-g", metavar="Week, Week/PSet",
                         help="CS50 Games Week Notes or Week/PSet Name")
+    parser.add_argument("-p", metavar="Week, Week/PSet",
+                        help="CS50 Python Week Notes or Week/PSet Name")
+    parser.add_argument("-w", metavar="Week, Week/PSet",
+                        help="CS50 Web Week Notes or Week/PSet Name")
+    parser.add_argument("-x", metavar="Week, Week/PSet",
+                        help="CS50x Week Notes or Week/PSet Name")
 
-    if len(sys.argv) < 2:
+    if len(args) < 2:
         parser.print_help()
         sys.exit(1)
     else:
-        return parser.parse_args()
+        return parser.parse_args(args)
 
 
 def help():
