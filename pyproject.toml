@@ -1,16 +1,17 @@
 [build-system]
-requires = ["hatchling","hatch-requirements-txt"]
-build-backend = "hatchling.build"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "notes50"
-version = "0.0.2"
 authors = [
   { name="Zed", email="zeeshantechnical9128@gmail.com" },
 ]
+version = "0.0.4"
 description = "CS50 Notes And Psets Reader"
 readme = "README.md"
 license = { file="LICENSE" }
+keywords = ["CS50", "CS50P", "Notes", "Psets"]
 requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -18,11 +19,4 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dynamic = ["dependencies"]
-
-[project.urls]
-"Homepage" = "https://github.com/zedgamer9128/notes50"
-"Bug Tracker" = "https://github.com/zedgamer9128/notes50/issues"
-
-
-[tool.hatch.metadata.hooks.requirements_txt]
-filename = "requirements.txt"
+scripts = { notes50="notes50.notes50:main"}
